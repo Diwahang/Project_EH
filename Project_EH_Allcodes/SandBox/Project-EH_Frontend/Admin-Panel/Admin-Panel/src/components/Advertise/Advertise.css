@@ -1,0 +1,131 @@
+.advertise-container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    margin-right: 5px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabs button.active,
+  .tabs button:hover {
+    background-color: #6200ea;
+    color: white;
+  }
+  
+  .create-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .advertisement-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .advertisement-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .ad-details {
+    width: 100%;
+  }
+  
+  .ad-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ad-header h2 {
+    margin: 0;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .status.active {
+    background-color: #4CAF50;
+  }
+  
+  .status.completed {
+    background-color: #2196F3;
+  }
+  
+  .status.draft {
+    background-color: #FF9800;
+  }
+  
+  .status.archive {
+    background-color: #9E9E9E;
+  }
+  
+  .ad-body p {
+    margin: 5px 0;
+  }
+  
+  .ad-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-fund-button,
+  .details-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6200ea;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-fund-button:hover,
+  .details-button:hover {
+    background-color: #5a00d4;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button.active,
+  .pagination button:hover {
+    background-color: #6200ea;
+    color: white;
+  }
+  

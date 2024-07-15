@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    .section {
+      padding: 10px;
+      margin: 10px 0;
+    }
+  
+    .features-content h2 {
+      font-size: 1.2em;
+    }
+  
+    .features-content ul,
+    .features-content ol {
+      padding-left: 15px;
+    }
+  
+    .features-content ul li,
+    .features-content ol li {
+      margin-bottom: 8px;
+    }
+  }
+  
+  /* Interactive and User Experience Enhancements */
+  .features-content ul li,
+  .features-content ol li {
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .features-content ul li::before,
+  .features-content ol li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #333;
+  }
+  
+  .features-content ul li:hover,
+  .features-content ol li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .features-content h2:hover {
+    color: #007BFF;
+  }
+  
+  .features-content p {
+    font-size: 1.1em;
+  }

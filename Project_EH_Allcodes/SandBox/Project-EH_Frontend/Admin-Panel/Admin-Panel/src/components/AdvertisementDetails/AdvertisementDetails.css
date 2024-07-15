@@ -1,0 +1,50 @@
+.advertisement-detail {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-body {
+    margin-top: 20px;
+  }
+  
+  .job-body p {
+    margin: 10px 0;
+  }
+  
+  .proof-section {
+    margin-top: 20px;
+  }
+  
+  #proof-upload {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .submit-section {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .submit-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-section button:hover {
+    background-color: #0056b3;
+  }
+  

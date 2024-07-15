@@ -1,0 +1,307 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .wallet-container {
+    margin: 15px auto;
+    padding: 5px;
+    background: #f0f4f8;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wallet-card {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .wallet-balance h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .wallet-balance h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .wallet-actions {
+    display: flex;
+  }
+  
+  .wallet-actions button {
+    padding: 10px 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6a11cb;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 150px;
+    margin: 5px 5px;
+  }
+  
+  .wallet-actions button:hover {
+    transform: scale(1.02);
+    color: #fff;
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .wallet-menu {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .menu-item {
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #f0f4f8;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  
+  .menu-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .dropdown {
+    background: #f8f9fa;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .dropdown div {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .dropdown div:last-child {
+    border-bottom: none;
+  }
+
+
+  
+  
+  .wallet-transactions {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .header-and-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-and-filter h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin: 0;
+  }
+  
+  .filter-container {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .filter-options{
+    /* background-color: #4878cb; */
+    cursor: pointer;
+    z-index: 1000;
+
+  }
+
+  .filter-options-container{
+      height: 5.9rem;
+      border-radius: 10px;
+      background-color: #007bff;
+      align-items: center;
+      position: relative;
+      z-index: 1000;
+      /* top: -3rem; */
+      overflow: hidden;
+    
+  }
+
+  .options-filter {
+    transition: background-color 0.2s; /*add a transition effect*/
+  }
+  
+  .options-filter:hover {
+    background-color: #554cd1; /* change the background color on hover */
+    cursor: pointer; /* change the cursor to a pointer on hover */
+    color: #fff;
+  }
+
+  
+  
+  .wallet-transactions table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: -15px;
+  }
+  
+  .wallet-transactions th,
+  .wallet-transactions td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .wallet-transactions th {
+    background: linear-gradient(135deg, #667eea 0%, #7f40bf 100%);
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  
+  .wallet-transactions th:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .wallet-transactions th:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .wallet-transactions tr {
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .wallet-transactions tr:hover {
+    transform: scale(1.01);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .wallet-transactions td {
+    background-color: #fff;
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 1px solid #ecf0f1;
+  }
+  
+  .wallet-transactions td:first-child {
+    border-left: 1px solid #ecf0f1;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .wallet-transactions td:last-child {
+    border-right: 1px solid #ecf0f1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  .popup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .popup input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ecf0f1;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .popup input:focus {
+    border-color: #6a11cb;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(106, 17, 203, 0.2);
+  }
+  
+  .popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .popup button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .popup button[type="submit"] {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+  }
+  
+  .popup button[type="button"] {
+    background: #ecf0f1;
+    color: #2c3e50;
+  }
+  
+  .popup button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .wallet-balance-outer-container {
+    display: flex;
+    justify-content: space-between;
+  } 

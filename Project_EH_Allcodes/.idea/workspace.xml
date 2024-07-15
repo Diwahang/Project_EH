@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d2c7193-4647-4dca-9809-11ed178936f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@ckeditor_ckeditor5-build-classic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@ckeditor_ckeditor5-build-classic.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@ckeditor_ckeditor5-react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@ckeditor_ckeditor5-react.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_icons-material.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_icons-material.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_icons-material_FilterList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_icons-material_FilterList.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_Button.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_Dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_Dialog.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_DialogActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_DialogActions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_DialogContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_DialogContent.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_DialogContentText.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_DialogContentText.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_DialogTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/@mui_material_DialogTitle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/_metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/axios.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-2BLJBU2Z.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-2BLJBU2Z.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-2M5CDSNX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-2M5CDSNX.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-4EE5ZX7O.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-4EE5ZX7O.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-4WQMYBFQ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-4WQMYBFQ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ANCGLH7I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ANCGLH7I.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ASEEKGVG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ASEEKGVG.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-AWJVQANN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-AWJVQANN.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-BFUKXQ4I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-BFUKXQ4I.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-D2HF6BQW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-D2HF6BQW.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-DKRK6SDQ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-DKRK6SDQ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-DZGM5QPT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-DZGM5QPT.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-DZIKHGYJ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-DZIKHGYJ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ES77DBWZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ES77DBWZ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-EWTE5DHJ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-EWTE5DHJ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-HM4TXG2Z.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-HM4TXG2Z.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-IBEOXOJW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-IBEOXOJW.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-JKX5TAE6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-JKX5TAE6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-M37ONVOF.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-M37ONVOF.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-MOJUAYT3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-MOJUAYT3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-OHIB45GR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-OHIB45GR.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-PTJPPQUT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-PTJPPQUT.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-QWD6AGV3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-QWD6AGV3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-QXGJV725.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-QXGJV725.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-R6WZ5DY6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-R6WZ5DY6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-RIZE6QSE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-RIZE6QSE.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-U25TFCNJ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-U25TFCNJ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-UYATFWPX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-UYATFWPX.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-VGRWHEVN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-VGRWHEVN.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-VIJJHCPD.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-VIJJHCPD.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-VIQUVIEX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-VIQUVIEX.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-VOX4M42L.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-VOX4M42L.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-WPIQ3T2C.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-WPIQ3T2C.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ZP46UDW4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ZP46UDW4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ZXCAWTW2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/chunk-ZXCAWTW2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react-dom_client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react-dom_client.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react-icons_fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react-icons_fa.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react-quill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react-quill.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react-router-dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react-router-dom.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react_jsx-dev-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react_jsx-dev-runtime.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react_jsx-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Project-EH_Frontend/Dashboard-userpanel/dashboard-frontend/node_modules/.vite/deps/react_jsx-runtime.js.map" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2jE5uQqfUfr07woN0UB2TpbdmiG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/longl/Desktop/Project_0/project_us/Project_EH_Allcodes/SandBox/Project-EH-Backend&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-eebebe6c2be4-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15325.20" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d2c7193-4647-4dca-9809-11ed178936f8" name="Changes" comment="" />
+      <created>1720939617541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720939617541</updated>
+    </task>
+    <servers />
+  </component>
+</project>

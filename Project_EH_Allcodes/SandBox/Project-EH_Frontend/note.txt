@@ -1,0 +1,23 @@
+
+pip install virtualenv
+
+python -m venv envname   // to create virtual environment for the django
+
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process   // to temporaryly enable script to run
+
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser   // to permanently enable script to run on the window
+
+
+.\djangoenv\Scripts\activate    // to activate the environment
+
+
+pip install django
+django-admin startproject my_project
+
+
+cd my_project
+python manage.py runserver
+
+
+python manage.py startapp blog

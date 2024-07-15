@@ -1,0 +1,42 @@
+/* Home.css */
+
+/* Global CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styling */
+  .container {
+    width: 100%;
+    height: 40rem;
+    background-color: #27750b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #photo {
+    height: 25rem;
+    width: 25rem;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 2rem;
+  }
+  

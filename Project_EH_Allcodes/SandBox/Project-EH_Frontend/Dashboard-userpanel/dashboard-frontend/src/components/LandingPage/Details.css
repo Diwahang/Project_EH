@@ -1,0 +1,143 @@
+.section#details {
+
+  padding: 20px;
+  background-color: #f0f0f0;
+  height: 100rem; /* Adjust height as needed */
+}
+
+.details-container {
+  position: fixed;
+  max-width: 70%; /* Adjust width as needed */
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+
+.slider {
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px solid #262323;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.slider-arrow.left {
+  left: 10px;
+}
+
+.slider-arrow.right {
+  right: 10px;
+}
+
+.slider-item {
+  width: 100%;
+  display: none;
+}
+
+.slider-item.active {
+  display: block;
+}
+
+.slider-content {
+  padding: 20px;
+  background-color: white;
+}
+
+.slider-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slider-content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.slider-content ul,
+.slider-content ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.slider-content li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.side-content {
+  width: 30%; /* Adjust width as needed */
+  height: 50rem; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-pane {
+  height: 50%;
+  display: flex;
+}
+
+.side-content-left {
+  width: 50%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.side-content-right {
+  width: 50%;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .details-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .slider {
+    width: 100%;
+    margin-top: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .slider-arrow {
+    display: contents;
+  }
+
+  .side-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .side-pane {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .side-content-left,
+  .side-content-right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,323 @@
+/* Earn.css */
+
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #50e3c2;
+  --background-color: #f8f9fa;
+  --card-background: #ffffff;
+  --text-color: #333333;
+  --text-light: #6c757d;
+  --border-color: #e9ecef;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: 'Roboto', 'Arial', sans-serif; */
+  line-height: 1.6;
+}
+
+.earn-container {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 22px 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-buttons button,
+.filter {
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--card-background);
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.filter-buttons button:hover,
+.filter-buttons button.active,
+.filter:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.filter span {
+  margin-right: 8px;
+}
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job-card {
+  background-color: var(--card-background);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.job-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.job-header {
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-header h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.job-id {
+  font-size: 14px;
+  color: var(--text-light);
+  margin-top: 5px;
+}
+
+.job-body {
+  padding: 20px;
+}
+
+.job-body p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.job-body strong {
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.job-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: var(--background-color);
+}
+
+.job-reward {
+  font-weight: 600;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+.start-button {
+  width: 145px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.start-button:hover {
+  background-color: #3a7bc8;
+}
+
+@media (max-width: 768px) {
+  .earn-container {
+    padding: 20px 10px;
+  }
+
+  .filter-container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+
+  .job-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .start-button {
+    width: 100%;
+  }
+}
+/* Add these new styles at the end of your existing CSS file */
+
+.job-card {
+  /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-footer h3.proof-title {
+  font-size: 18px;
+  color: #4a5568;
+  margin-bottom: 12px;
+}
+
+.proof-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+
+
+
+
+.transaction-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 24px;
+  transition: all 0.3s ease;
+}
+
+.transaction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.transaction-header {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: #ffffff;
+  padding: 20px;
+}
+
+.transaction-header h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.transaction-id {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.transaction-body {
+  padding: 20px;
+}
+
+.transaction-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.detail-value {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.detail-value.amount {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.status-container {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-container.approved {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-container.pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-container.denied {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.status-icon {
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.transaction-footer {
+  padding: 20px;
+  background-color: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+
+.proof-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.proof-image:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 640px) {
+  .transaction-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+

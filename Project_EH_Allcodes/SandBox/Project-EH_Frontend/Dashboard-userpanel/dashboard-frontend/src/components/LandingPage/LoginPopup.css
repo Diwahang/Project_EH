@@ -1,0 +1,130 @@
+/* Updated to ensure the background of the login popup remains consistent and to adjust html background color. */
+
+html, body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.login-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff; /* Background color for popup remains white for better contrast */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 90%;
+  max-width: 400px;
+  color: #333;
+}
+
+.login-content {
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 45px; /* Adjusted size for better alignment */
+  background-color: #fff;
+  border-radius: 4px 0 0 4px;
+  margin-bottom: 0.6rem;
+}
+
+.icon {
+  color: #667eea; /* Updated icon color to match theme */
+  font-size: 1.2rem;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #667eea; /* Updated icon color to match theme */
+}
+
+button[type="submit"],
+.google-login,
+.close-button {
+  padding: 10px;
+  background-color: #667eea; /* Updated button color to match theme */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button[type="submit"]:hover,
+.google-login:hover,
+.close-button:hover {
+  background-color: #5a67d8; /* Updated hover color to match theme */
+}
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db4437;
+}
+
+.google-login .fa-google {
+  margin-right: 10px;
+}
+
+.google-login:hover {
+  background-color: #c23321;
+}
+
+.alternative-login,
+.forgot-password-link,
+.register-link {
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.forgot-password-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .login-popup {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .icon-wrapper {
+    width: 35px;
+    height: 35px;
+  }
+
+  input {
+    padding: 8px;
+  }
+}

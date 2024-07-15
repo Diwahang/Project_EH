@@ -1,0 +1,220 @@
+.register-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  overflow-y: auto;
+  padding: 0;
+}
+
+.register-content {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.company-name {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 28px;
+}
+
+.enter-details {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 1rem;
+  color: #667eea;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #5a67d8;
+}
+
+.alternative-login {
+  margin-top: 15px;
+}
+
+.alternative-login p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.google-login {
+  padding: 10px;
+  background-color: #4285F4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.google-login:hover {
+  background-color: #3367D6;
+}
+
+.google-login svg {
+  margin-right: 8px;
+}
+
+.login-text {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #e53e3e;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #38a169;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.otp-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.otp-modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  position: relative;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #667eea;
+}
+
+@media (max-width: 600px) {
+  .register-content {
+    padding: 1.5rem;
+    max-width: 90%;
+    margin-top: 0;
+  }
+
+  .company-name {
+    font-size: 24px;
+  }
+
+  .enter-details {
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select {
+    font-size: 14px;
+  }
+
+  button[type="submit"],
+  .google-login {
+    font-size: 14px;
+  }
+}

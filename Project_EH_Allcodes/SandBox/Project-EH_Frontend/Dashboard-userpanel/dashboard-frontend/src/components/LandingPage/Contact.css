@@ -1,0 +1,41 @@
+/* Contact.css */
+.section#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    background-color: darkslategray;
+    height: 21rem;
+    color: antiquewhite;
+    
+  }
+  
+  .contact-details {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Adds spacing between each contact detail item */
+  }
+  
+  .contact-details p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;    
+  }
+  
+  .contact-details i {
+    margin-right: 10px; /* Adds spacing between the icon and the text */
+    font-size: 24px; /* Adjust the icon size if needed */
+  }
+  
+  /* Optional: Style for the section title */
+  .section h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: bisque;
+  }
+  .section p {
+    font-weight: bolder;
+  }
+  

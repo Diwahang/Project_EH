@@ -1,0 +1,41 @@
+.submissions-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .submissions-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .submission-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+  }
+  
+  .submission-item p {
+    margin: 5px 0;
+  }
+  
+  .proof-image {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+  }
+  
+  .verify-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .verify-button:hover {
+    background-color: #0056b3;
+  }
+  

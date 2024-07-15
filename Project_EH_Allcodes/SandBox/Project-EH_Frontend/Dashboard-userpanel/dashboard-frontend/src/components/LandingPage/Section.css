@@ -1,0 +1,55 @@
+
+.section {
+  margin-top: 0%;
+  background-color: #9c8b8b;
+
+
+}
+.section#home.section{
+  margin-top: 0%;
+}
+
+.contact-details {
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-details p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-details i {
+  margin-right: 10px;
+  color: #333;
+}
+
+.details-content {
+  margin-top: 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.details-content h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.details-content p,
+.details-content ul,
+.details-content ol {
+  margin-top: 10px;
+}
+
+.details-content ul,
+.details-content ol {
+  padding-left: 20px;
+}
+
+.details-content ul li,
+.details-content ol li {
+  margin-bottom: 10px;
+}

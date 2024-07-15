@@ -1,0 +1,202 @@
+/* Global Styles */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --accent-color: #e74c3c;
+    --light-gray: #f1f1f1;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Ad Page Wrapper */
+.ad-page-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Ad Article */
+.ad-article {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header Styles */
+.ad-header {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.ad-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.ad-category, .ad-date {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+}
+
+.ad-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ad-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Content Styles */
+.ad-content {
+    padding: 2rem;
+}
+
+/* Media Styles */
+.ad-media {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.ad-thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* Section Styles */
+.ad-content section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+/* Details, Discounts, Offers, Guidelines Sections */
+.ad-details-content, .discount-box, .offer-box, .guidelines-content {
+    background-color: var(--light-gray);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+/* Referral Section */
+.referral-box {
+    text-align: center;
+}
+
+.referral-code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    background-color: var(--light-gray);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* Links Section */
+.more-info-link {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.more-info-link:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.arrow {
+    margin-left: 0.5rem;
+}
+
+/* Additional Info Section */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.info-item {
+    background-color: var(--light-gray);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+/* Footer Styles */
+.ad-footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Loading State */
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ad-page-wrapper {
+        padding: 1rem;
+    }
+
+    .ad-header {
+        padding: 1.5rem 1rem;
+    }
+
+    .ad-title {
+        font-size: 2rem;
+    }
+
+    .ad-content {
+        padding: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+}
